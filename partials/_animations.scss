@@ -1,0 +1,14 @@
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate {
+  animation: animate 3s 2s ease forwards;
+}

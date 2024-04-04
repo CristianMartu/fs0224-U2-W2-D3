@@ -1,0 +1,56 @@
+@import 'partials/reset';
+@import 'partials/mixins';
+@import 'partials/spacing';
+@import 'partials/colors';
+@import 'partials/font';
+@import 'partials/buttons';
+@import 'partials/animations';
+
+body {
+  font-family: $font-family;
+  header {
+    nav {
+      background-color: $color-text;
+      border-radius: 20px;
+      ul {
+        display: flex;
+        list-style-type: none;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+#headline {
+  width: 80%;
+  margin-inline: auto;
+  div {
+    display: flex;
+  }
+}
+
+#hero {
+  display: flex;
+  background-color: $color-bg-hero;
+
+  .image-container img {
+    width: 500px;
+    object-fit: cover;
+  }
+}
+
+#grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  .image-container {
+    width: 40%;
+  }
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}

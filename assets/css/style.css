@@ -1,0 +1,380 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+.padding-inline-xs {
+  padding-inline: 0.5rem;
+}
+
+.padding-block-xs {
+  padding-block: 0.5rem;
+}
+
+.margin-inline-xs {
+  margin-inline: 0.5rem;
+}
+
+.margin-block-xs {
+  margin-block: 0.5rem;
+}
+
+.margin-top-xs {
+  margin-top: 0.5rem;
+}
+
+.margin-bottom-xs {
+  margin-bottom: 0.5rem;
+}
+
+.padding-inline-sm {
+  padding-inline: 1rem;
+}
+
+.padding-block-sm {
+  padding-block: 1rem;
+}
+
+.margin-inline-sm {
+  margin-inline: 1rem;
+}
+
+.margin-block-sm {
+  margin-block: 1rem;
+}
+
+.margin-top-sm {
+  margin-top: 1rem;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 1rem;
+}
+
+.padding-inline-md {
+  padding-inline: 1.5rem;
+}
+
+.padding-block-md {
+  padding-block: 1.5rem;
+}
+
+.margin-inline-md {
+  margin-inline: 1.5rem;
+}
+
+.margin-block-md {
+  margin-block: 1.5rem;
+}
+
+.margin-top-md {
+  margin-top: 1.5rem;
+}
+
+.margin-bottom-md {
+  margin-bottom: 1.5rem;
+}
+
+.padding-inline-lg {
+  padding-inline: 2rem;
+}
+
+.padding-block-lg {
+  padding-block: 2rem;
+}
+
+.margin-inline-lg {
+  margin-inline: 2rem;
+}
+
+.margin-block-lg {
+  margin-block: 2rem;
+}
+
+.margin-top-lg {
+  margin-top: 2rem;
+}
+
+.margin-bottom-lg {
+  margin-bottom: 2rem;
+}
+
+.padding-inline-xl {
+  padding-inline: 3rem;
+}
+
+.padding-block-xl {
+  padding-block: 3rem;
+}
+
+.margin-inline-xl {
+  margin-inline: 3rem;
+}
+
+.margin-block-xl {
+  margin-block: 3rem;
+}
+
+.margin-top-xl {
+  margin-top: 3rem;
+}
+
+.margin-bottom-xl {
+  margin-bottom: 3rem;
+}
+
+.size-p {
+  font-size: 1.2rem;
+}
+
+.size-h6 {
+  font-size: 1.35rem;
+}
+
+.size-h5 {
+  font-size: 1.5rem;
+}
+
+.size-h4 {
+  font-size: 1.65rem;
+}
+
+.size-h3 {
+  font-size: 1.8rem;
+}
+
+.size-h2 {
+  font-size: 1.9rem;
+}
+
+.size-h1 {
+  font-size: 2rem;
+}
+
+.btn-blue {
+  font-family: inherit;
+  width: 100px;
+  height: 50px;
+  padding: 0.5rem;
+  background-color: #0e6cff;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  color: #f4f4f4;
+}
+
+.btn-orange {
+  font-family: inherit;
+  width: 100px;
+  height: 50px;
+  padding: 0.5rem;
+  background-color: #ff8700;
+  border-radius: 4px;
+}
+
+.btn-orange:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  color: #f4f4f4;
+}
+
+.btn-green {
+  font-family: inherit;
+  width: 100px;
+  height: 50px;
+  padding: 0.5rem;
+  background-color: #4caf50;
+  border-radius: 4px;
+}
+
+.btn-green:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  color: #f4f4f4;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate {
+  animation: animate 3s 2s ease forwards;
+}
+
+body {
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+body header nav {
+  background-color: #f4f4f4;
+  border-radius: 20px;
+}
+body header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+body header nav ul a {
+  text-decoration: none;
+}
+
+#headline {
+  width: 80%;
+  margin-inline: auto;
+}
+#headline div {
+  display: flex;
+}
+
+#hero {
+  display: flex;
+  background-color: #640fc5;
+}
+#hero .image-container img {
+  width: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+#grid-container .image-container {
+  width: 40%;
+}
+#grid-container img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
