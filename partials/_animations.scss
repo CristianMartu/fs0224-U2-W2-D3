@@ -1,14 +1,32 @@
-@keyframes animate {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
+// @keyframes animate {
+//   0% {
+//     opacity: 0;
+//     transform: translateY(-20px);
+//   }
+//   100% {
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+// }
+// .animate {
+//   animation: animate 3s 2s ease forwards;
+// }
+
+@mixin animate($name, $time, $delay, $start, $finish) {
+  @keyframes animate-#{$name} {
+    0% {
+      opacity: 0;
+      transform: translateY(#{$start}px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(#{$finish}px);
+    }
   }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
+
+  .animate-#{$name} {
+    animation: animate-#{$name} $time $delay ease forwards;
   }
 }
 
-.animate {
-  animation: animate 3s 2s ease forwards;
-}
+@include animate('normal', 3s, 2s, -20, 0);
